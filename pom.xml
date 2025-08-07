@@ -165,11 +165,5 @@
     <version>7.11.0</version>
     <scope>test</scope>
 </dependency>
-
-  	<dependency>
-  		<groupId>QA_Selenium_Topics</groupId>
-  		<artifactId>QA_Selenium_Topics</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
   </dependencies>
 </project>
