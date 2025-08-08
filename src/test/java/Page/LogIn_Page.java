@@ -1,13 +1,14 @@
 package Page;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-import org.testng.annotations.Test;
 import Utils.Browser;
+import Utils.Failed_Retry;
 import Utils.Waits;
 
 public class LogIn_Page extends Browser implements Waits {
@@ -32,13 +33,13 @@ public class LogIn_Page extends Browser implements Waits {
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1, retryAnalyzer = Failed_Retry.class)
 	public void loginpage() {
 
 		ImplicitWait();
 		String Title = driver.getTitle();
 
-		Assert.assertEquals(WebTitle, Title);
+		AssertJUnit.assertEquals(WebTitle, Title);
 
 		if (WebTitle.equals(Title)) {
 

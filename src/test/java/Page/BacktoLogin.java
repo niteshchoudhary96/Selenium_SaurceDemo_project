@@ -1,7 +1,7 @@
 package Page;
 
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
+import org.openqa.selenium.By;
 
 public class BacktoLogin extends Checkout_Complete {
 	

@@ -3,6 +3,7 @@ package Utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 public class Browser extends File_Reader {
@@ -18,8 +19,10 @@ public class Browser extends File_Reader {
 		driver = new ChromeDriver(options);
 		driver.get(websitedetails.getProperty("URL"));
 	}
+	
+	
 
-	// @AfterTest
+	 @AfterTest
 	public void CloseBrowser() {
 
 		String Title = driver.getTitle();

@@ -2,52 +2,56 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-08T11:48:17 IST" name="Default suite" finished-at="2025-08-08T11:48:28 IST" duration-ms="10107">
+  <suite started-at="2025-08-08T17:40:03 IST" name="Suite" finished-at="2025-08-08T17:40:12 IST" duration-ms="9030">
     <groups>
     </groups>
-    <test started-at="2025-08-08T11:48:17 IST" name="Default test" finished-at="2025-08-08T11:48:28 IST" duration-ms="10107">
+    <test started-at="2025-08-08T17:40:03 IST" name="Test" finished-at="2025-08-08T17:40:12 IST" duration-ms="9030">
       <class name="Page.Main_run_test">
-        <test-method is-config="true" signature="ReadData()[pri:0, instance:Page.Main_run_test@7d3e8655]" started-at="2025-08-08T11:48:18 IST" name="ReadData" finished-at="2025-08-08T11:48:18 IST" duration-ms="54" status="PASS">
+        <test-method is-config="true" signature="ReadData()[pri:0, instance:Page.Main_run_test@5276d6ee]" started-at="2025-08-08T17:40:03 IST" name="ReadData" finished-at="2025-08-08T17:40:03 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReadData -->
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Page.Main_run_test@7d3e8655]" started-at="2025-08-08T11:48:18 IST" name="OpenBrowser" finished-at="2025-08-08T11:48:21 IST" depends-on-methods="Utils.File_Reader.ReadData" duration-ms="3939" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Page.Main_run_test@5276d6ee]" started-at="2025-08-08T17:40:03 IST" name="OpenBrowser" finished-at="2025-08-08T17:40:06 IST" depends-on-methods="Utils.File_Reader.ReadData" duration-ms="3237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="completeCheckoutFlow()[pri:0, instance:Page.Main_run_test@7d3e8655]" started-at="2025-08-08T11:48:22 IST" name="completeCheckoutFlow" finished-at="2025-08-08T11:48:24 IST" duration-ms="2711" status="PASS">
+        <test-method signature="completeCheckoutFlow()[pri:0, instance:Page.Main_run_test@5276d6ee]" started-at="2025-08-08T17:40:06 IST" name="completeCheckoutFlow" finished-at="2025-08-08T17:40:08 IST" duration-ms="2220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completeCheckoutFlow -->
-        <test-method signature="loginpage()[pri:1, instance:Page.Main_run_test@7d3e8655]" started-at="2025-08-08T11:48:24 IST" name="loginpage" finished-at="2025-08-08T11:48:25 IST" duration-ms="636" status="PASS">
+        <test-method signature="loginpage()[pri:1, instance:Page.Main_run_test@5276d6ee]" started-at="2025-08-08T17:40:08 IST" name="loginpage" finished-at="2025-08-08T17:40:09 IST" duration-ms="565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage -->
-        <test-method signature="MainproductScreen()[pri:2, instance:Page.Main_run_test@7d3e8655]" started-at="2025-08-08T11:48:25 IST" name="MainproductScreen" finished-at="2025-08-08T11:48:26 IST" duration-ms="770" status="PASS">
+        <test-method signature="MainproductScreen()[pri:2, instance:Page.Main_run_test@5276d6ee]" started-at="2025-08-08T17:40:09 IST" name="MainproductScreen" finished-at="2025-08-08T17:40:09 IST" duration-ms="553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MainproductScreen -->
-        <test-method signature="CheckoutItemList()[pri:3, instance:Page.Main_run_test@7d3e8655]" started-at="2025-08-08T11:48:26 IST" name="CheckoutItemList" finished-at="2025-08-08T11:48:26 IST" duration-ms="383" status="PASS">
+        <test-method signature="CheckoutItemList()[pri:3, instance:Page.Main_run_test@5276d6ee]" started-at="2025-08-08T17:40:09 IST" name="CheckoutItemList" finished-at="2025-08-08T17:40:10 IST" duration-ms="396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckoutItemList -->
-        <test-method signature="information()[pri:4, instance:Page.Main_run_test@7d3e8655]" started-at="2025-08-08T11:48:26 IST" name="information" finished-at="2025-08-08T11:48:27 IST" duration-ms="586" status="PASS">
+        <test-method signature="information()[pri:4, instance:Page.Main_run_test@5276d6ee]" started-at="2025-08-08T17:40:10 IST" name="information" finished-at="2025-08-08T17:40:10 IST" duration-ms="678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- information -->
-        <test-method signature="Checkprice()[pri:5, instance:Page.Main_run_test@7d3e8655]" started-at="2025-08-08T11:48:27 IST" name="Checkprice" finished-at="2025-08-08T11:48:27 IST" duration-ms="318" status="PASS">
+        <test-method signature="Checkprice()[pri:5, instance:Page.Main_run_test@5276d6ee]" started-at="2025-08-08T17:40:10 IST" name="Checkprice" finished-at="2025-08-08T17:40:11 IST" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkprice -->
-        <test-method signature="Confirmtext()[pri:6, instance:Page.Main_run_test@7d3e8655]" started-at="2025-08-08T11:48:27 IST" name="Confirmtext" finished-at="2025-08-08T11:48:27 IST" duration-ms="174" status="PASS">
+        <test-method signature="Confirmtext()[pri:6, instance:Page.Main_run_test@5276d6ee]" started-at="2025-08-08T17:40:11 IST" name="Confirmtext" finished-at="2025-08-08T17:40:11 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Confirmtext -->
-        <test-method signature="GotoLoginScreen()[pri:7, instance:Page.Main_run_test@7d3e8655]" started-at="2025-08-08T11:48:27 IST" name="GotoLoginScreen" finished-at="2025-08-08T11:48:28 IST" duration-ms="443" status="PASS">
+        <test-method signature="GotoLoginScreen()[pri:7, instance:Page.Main_run_test@5276d6ee]" started-at="2025-08-08T17:40:11 IST" name="GotoLoginScreen" finished-at="2025-08-08T17:40:11 IST" duration-ms="589" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GotoLoginScreen -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Page.Main_run_test@5276d6ee]" started-at="2025-08-08T17:40:11 IST" name="CloseBrowser" finished-at="2025-08-08T17:40:12 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
       </class> <!-- Page.Main_run_test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

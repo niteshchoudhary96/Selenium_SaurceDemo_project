@@ -10,6 +10,8 @@ import org.openqa.selenium.WebDriver;
 public class ScreenShotOnFailed extends Failed_Retry {
 	public WebDriver driver;
 
+	
+	
 	public void takeSCREENshot() throws IOException {
 
 		File screen = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
