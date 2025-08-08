@@ -165,10 +165,6 @@
     <version>7.11.0</version>
     <scope>test</scope>
 </dependency>
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 081803abc65ad7aeac0680d61616c3a989973bf9
   </dependencies>
 </project>
